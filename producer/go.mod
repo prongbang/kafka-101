@@ -1,3 +1,3 @@
-module github.com/prongbang/kafka-101/producer
+module github.com/prongbang/kafka/producer
 
 go 1.17

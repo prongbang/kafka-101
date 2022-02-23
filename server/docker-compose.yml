@@ -13,7 +13,7 @@ services:
     ports:
       - "9092:9092"
     volumes:
-      - ./kafka:/bitnami/kafka/data
+      - ./kafka:/opt/bitnami/kafka/data
     depends_on:
       - zookeeper
     environment:
